@@ -21,7 +21,3 @@ impl Controller for Controller404 {
         })
     }
 }
-
-pub fn handle() -> Box<dyn Controller> {
-    Box::new( Controller404{})
-}

@@ -21,7 +21,3 @@ impl Controller for HomeController {
         })
     }
 }
-
-pub fn handle() -> Box<dyn Controller> {
-    Box::new( HomeController{})
-}
